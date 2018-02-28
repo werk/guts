@@ -1,7 +1,6 @@
 package dk.mzw.guts.system
 
-import dk.mzw.guts.utility.Mouse
-import dk.mzw.pyroman.Keys
+import dk.mzw.guts.utility.{Keys, Mouse}
 
 trait ControlledEntity extends Entity {
 

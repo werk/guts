@@ -6,7 +6,7 @@ import dk.mzw.guts.procedural.TownGenerator
 import dk.mzw.guts.system.Entity.Self
 import dk.mzw.guts.system.{Entity, Vector2d}
 import dk.mzw.guts.utility.Mouse
-import dk.mzw.scalasprites.Measure
+import dk.mzw.guts.utility.Measure
 import dk.mzw.scalasprites.SpriteCanvas.Loader
 import org.scalajs.dom
 import org.scalajs.dom.raw.{HTMLCanvasElement, HTMLElement}

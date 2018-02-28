@@ -1,9 +1,9 @@
 package dk.mzw.guts
 
-import dk.mzw.accelemation.Language.{Animation, Image, R, Vec2, Vec3, rgba}
-import dk.mzw.accelemation.Math
-import dk.mzw.accelemation.util.Prelude
-import dk.mzw.accelemation.util.Prelude.gaussianOne
+import dk.mzw.scalashading.Language.{Animation, Image, R, Vec2, Vec3, rgba}
+import dk.mzw.scalashading.Math
+import dk.mzw.scalashading.util.Prelude
+import dk.mzw.scalashading.util.Prelude.gaussianOne
 import dk.mzw.scalasprites.SpriteCanvas.{Blending, Loader}
 
 class Sprites(loader : Loader) {

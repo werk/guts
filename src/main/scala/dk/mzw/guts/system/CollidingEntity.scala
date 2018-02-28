@@ -4,7 +4,7 @@ import dk.mzw.guts.system.CollidingEntity.Collision
 
 import scala.scalajs.js
 import CollidingEntity._
-import dk.mzw.scalasprites.Measure
+import dk.mzw.guts.utility.Measure
 
 /** An entity that gets blocked by other solid entities */
 trait CollidingEntity extends PawnEntity {

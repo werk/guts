@@ -1,6 +1,6 @@
 package dk.mzw.guts.system
 
-import dk.mzw.scalasprites.Measure
+import dk.mzw.guts.utility.Measure
 
 import scala.scalajs.js
 

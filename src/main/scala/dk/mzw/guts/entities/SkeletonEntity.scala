@@ -7,7 +7,7 @@ import dk.mzw.guts.entities.SkeletonEntity.SetVelocity
 import dk.mzw.guts.system.CollidingEntity.Collision
 import dk.mzw.guts.system.Entity.{Message, Self}
 import dk.mzw.guts.system._
-import dk.mzw.scalasprites.{Measure, SpriteCanvas}
+import dk.mzw.scalasprites.SpriteCanvas
 import dk.mzw.scalasprites.SpriteCanvas.{Blending, Image}
 
 class SkeletonEntity(

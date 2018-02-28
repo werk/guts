@@ -1,2 +1,2 @@
-# scala-shading
-Write GLSL in a DSL in Scala
+# Guts
+A top down shooter running in the browser written in Scala

@@ -6,7 +6,7 @@ import dk.mzw.guts.entities.PlayerEntity.{SetXVelocity, SetYVelocity}
 import dk.mzw.guts.system.CollidingEntity.Collision
 import dk.mzw.guts.system.Entity.Self
 import dk.mzw.guts.system._
-import dk.mzw.guts.utility.{Keys, Mouse, Normal}
+import dk.mzw.guts.utility.{Mouse, Normal}
 import dk.mzw.scalasprites.SpriteCanvas
 import dk.mzw.scalasprites.SpriteCanvas.Image
 

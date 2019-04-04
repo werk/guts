@@ -2,8 +2,7 @@ package dk.mzw.guts.system
 
 import dk.mzw.guts.entities.SkeletonEntity
 import dk.mzw.guts.system.Entity.{Message, Self}
-import dk.mzw.guts.utility.Mouse
-import dk.mzw.guts.utility.Measure
+import dk.mzw.guts.utility.{Keys, Measure, Mouse}
 import dk.mzw.scalasprites.SpriteCanvas.{BoundingBox, Display}
 
 import scala.scalajs.js

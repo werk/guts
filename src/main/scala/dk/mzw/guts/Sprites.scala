@@ -39,7 +39,7 @@ class Sprites(loader : Loader) {
     val flameBrightImage = loader("assets/flame-bright.png") //loader(flame(0.3))
     val flameRedImage = loader("assets/flame-red.png")
     val pelletImage = loader("assets/pellet.png")
-    val laserBeamImage = loader(laserBeam)
+    val laserBeamImage = loader.u1(laserBeam)
     val roundFlame = loader(flame(0.2))
 
 }

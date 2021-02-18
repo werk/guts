@@ -69,13 +69,13 @@ class Grid[T <: PawnEntity] {
                             var i = 0
                             while(i < g.length) {
                                 if(g(i) == e) {
-                                    if(g.length == 1) grid.delete(k)
+                                    if(g.length == 1) grid -= k
                                     else g.splice(i, 1)
                                     i = g.length
                                 }
                                 i += 1
                             }
-                        case g => grid.delete(k)
+                        case g => grid -= k
                     }
                 }
                 y += 1

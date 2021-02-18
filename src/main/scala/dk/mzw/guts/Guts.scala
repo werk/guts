@@ -11,11 +11,10 @@ import dk.mzw.scalasprites.SpriteCanvas.Loader
 import org.scalajs.dom
 import org.scalajs.dom.raw.{HTMLCanvasElement, HTMLElement}
 
-import scala.scalajs.js.JSApp
 import scala.concurrent.ExecutionContext.Implicits.global
 
-object Guts extends JSApp {
-    def main(): Unit = {
+object Guts {
+    def main(args : Array[String]): Unit = {
         val canvas = dom.document.getElementById("spriteCanvas").asInstanceOf[HTMLCanvasElement]
         val loader = new Loader(canvas)
 
